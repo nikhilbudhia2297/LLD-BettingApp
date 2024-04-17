@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rimraf ./dist && tsc -p .",
     "dev:server": "npm run build && nodemon -r dotenv/config src/server.ts",
-    "server": "node dist/server.js"
+    "server": "node dist/server.js",
+    "betting" : "npm run build && nodemon src/blitz_betting/Main.ts"
   },
   "repository": {
     "type": "git",
