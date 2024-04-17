@@ -1,2 +1,2 @@
-# BoilerPlate
-A basic setup for creating http server in node js
+# Betting App : LLD
+Machine Coding : An app for betting
